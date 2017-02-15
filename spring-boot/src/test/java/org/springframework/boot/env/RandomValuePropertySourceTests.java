@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package org.springframework.boot.context.config;
+package org.springframework.boot.env;
 
 import java.util.Random;
 import java.util.UUID;
 
 import org.junit.Test;
+import org.springframework.boot.env.RandomValuePropertySource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;

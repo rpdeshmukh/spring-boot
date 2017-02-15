@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.springframework.boot.context.config;
+package org.springframework.boot.env;
 
 import java.util.Random;
 import java.util.UUID;
